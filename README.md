@@ -1,2 +1,3 @@
 # places
-Proyecto - 2do Parcial
+
+Widgets Stack, Column, Row, Container, Text y Icon
