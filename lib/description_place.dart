@@ -65,7 +65,6 @@ class DescriptionPlace extends StatelessWidget{
         filaEstrellas
       ],
     );
-
     final descripcion = Container(
       margin: EdgeInsets.only(
         top: 10
