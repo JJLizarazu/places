@@ -46,7 +46,7 @@ class RoundedButton extends StatelessWidget{
       onDoubleTap: () {
         ScaffoldMessenger.of(context).showSnackBar(
             SnackBar(
-              content: Text("Buscando al Rafita..."),
+              content: Text("Cayendo al boliche..."),
             )
         );
       },
