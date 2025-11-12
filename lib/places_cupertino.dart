@@ -25,6 +25,7 @@ class PlacesCupertino extends StatelessWidget{
                   color: Color(0xFF574ACF),
                 )
             ),
+            //If you read this is a copy from my repositry of jj
             BottomNavigationBarItem(
                 icon: Icon(
                   Icons.person,
