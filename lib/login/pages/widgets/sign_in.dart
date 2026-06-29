@@ -42,8 +42,7 @@ class _SignInState extends State<SignIn> {
       CustomSnackBar(context, const Text('Formato de correo no válido'), backgroundColor: Colors.red);
       return;
     }
-
-    final url = Uri.parse('http://127.0.0.1:8000/api/flutter/login/');
+    final url = Uri.parse('http://3.144.203.64:8000/api/flutter/login/');
     try {
       final response = await http.post(
         url,

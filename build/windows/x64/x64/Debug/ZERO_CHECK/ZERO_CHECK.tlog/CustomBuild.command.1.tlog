@@ -1,0 +1,10 @@
+^C:\USERS\JUANJ\DESKTOP\PLACES-BACKEND\PLACES\PLACES\BUILD\WINDOWS\X64\CMAKEFILES\A202C093EA82B79C3485042A62EC9520\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/juanj/Desktop/places-backend/Places/places/windows -BC:/Users/juanj/Desktop/places-backend/Places/places/build/windows/x64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/juanj/Desktop/places-backend/Places/places/build/windows/x64/places.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

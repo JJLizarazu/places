@@ -1,0 +1,28 @@
+^C:\USERS\JUANJ\DESKTOP\PLACES-BACKEND\PLACES\PLACES\BUILD\WINDOWS\X64\CMAKEFILES\629488C9CDD81184437D73EAC2CF2A6E\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\Users\juanj\flutter PROJECT_DIR=C:\Users\juanj\Desktop\places-backend\Places\places FLUTTER_ROOT=C:\Users\juanj\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\juanj\Desktop\places-backend\Places\places\windows\flutter\ephemeral PROJECT_DIR=C:\Users\juanj\Desktop\places-backend\Places\places FLUTTER_TARGET=C:\Users\juanj\Desktop\places-backend\Places\places\lib\main.dart DART_DEFINES=Zmx1dHRlci5pbnNwZWN0b3Iuc3RydWN0dXJlZEVycm9ycz10cnVl,RkxVVFRFUl9WRVJTSU9OPTMuMzguMw==,RkxVVFRFUl9DSEFOTkVMPXN0YWJsZQ==,RkxVVFRFUl9HSVRfVVJMPWh0dHBzOi8vZ2l0aHViLmNvbS9mbHV0dGVyL2ZsdXR0ZXIuZ2l0,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049MTkwNzRkMTJmNw==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049MTNlNjU4NzI1ZA==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMC4x DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\juanj\Desktop\places-backend\Places\places\.dart_tool\package_config.json C:/Users/juanj/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\JUANJ\DESKTOP\PLACES-BACKEND\PLACES\PLACES\BUILD\WINDOWS\X64\CMAKEFILES\2F22D448ABF0B49D18E561DB89FE2579\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\JUANJ\DESKTOP\PLACES-BACKEND\PLACES\PLACES\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/juanj/Desktop/places-backend/Places/places/windows -BC:/Users/juanj/Desktop/places-backend/Places/places/build/windows/x64 --check-stamp-file C:/Users/juanj/Desktop/places-backend/Places/places/build/windows/x64/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -100,8 +100,7 @@ class _SignUpState extends State<SignUp> {
     }
 
     // 2. VALIDACIÓN BACKEND (127.0.0.1 para WEB)
-    final url = Uri.parse('http://127.0.0.1:8000/api/flutter/registro/');
-
+    final url = Uri.parse('http://3.144.203.64:8000/api/flutter/registro/');
     try {
       final response = await http.post(
         url,
